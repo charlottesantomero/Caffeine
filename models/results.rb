@@ -1,5 +1,8 @@
 def caffine_suggestor(tolerance, day, hours)
   
+  if tolerance==""or day=="" or hours==""
+    puts "Error. Please return to home page and input proper data."
+  end
 
 #LOW LONG
   if tolerance =="low"

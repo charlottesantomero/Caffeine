@@ -18,6 +18,9 @@ class MyApp < Sinatra::Base
     @suggestion = caffine_suggestor(params[:tolerance], params[:day], params[:hours].to_f)
     
     erb :results
+    
+   
+      
   end
   
 

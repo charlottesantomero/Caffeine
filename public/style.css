@@ -1,9 +1,23 @@
 body {
-    background-image: url("https://cupsappblog.files.wordpress.com/2015/06/coffee-beans.jpg");
+    background-image: url("http://www.livetradingnews.com/wp-content/uploads/2015/04/The-Coffe-Bean-Roating-House.Image_.Coffe-Beans-and-cuppa.jpg");
+  background-repeat: no-repeat;
+      background-size: 1640px 1080px;
+
   color: white;
   font-size: 40px;
+
+  
+.OutlineText
+    color: black;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+
  
 }
 #button {
-  font-size :50px;
+  font-size:1000px;
+
 }
